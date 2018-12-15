@@ -1,0 +1,22 @@
+POST  https://us-central1-zirafarium-iot.cloudfunctions.net/terarium
+token : alfkjlkja&*I@llaslkjf
+content-type: application/json
+
+{
+    "sensors": {
+        "humidity": 31.4,
+        "temp": 19.2
+    },
+    "output": {
+        "light": false,
+        "heat": false
+    },
+    "mode": "night"
+}
+
+###
+GET https://us-central1-zirafarium-iot.cloudfunctions.net/terariumData
+
+{
+  "data":"data"   
+}
